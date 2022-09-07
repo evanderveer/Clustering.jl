@@ -38,6 +38,9 @@ module Clustering
 
     # dbscan
     DbscanResult, DbscanCluster, dbscan,
+	
+	# hdbscan
+	HdbscanResult, hdbscan,
 
     # fuzzy_cmeans
     fuzzy_cmeans, FuzzyCMeansResult,
@@ -75,6 +78,7 @@ module Clustering
     include("kmedoids.jl")
     include("affprop.jl")
     include("dbscan.jl")
+	include("hdbscan.jl")
     include("mcl.jl")
     include("fuzzycmeans.jl")
 
