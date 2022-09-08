@@ -62,7 +62,15 @@ end
 
 function _hdbscan(tree::Union{KDTree, BallTree}, points::AbstractMatrix, mpts::Real;
                 min_cluster_size::Int = 1)
-    
+				
+    #TODO: Find core distance
+	#TODO: Transform to mutual reachability distance
+	#TODO: Get minimal spanning tree
+	#TODO: Sort MST
+	#TODO: Label clusters
+	#TODO: Calculate stability
+	#TODO: Optimized total stability
+	
 end
 
 
